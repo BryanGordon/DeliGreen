@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-        <title>DeliGreen</title>
+<html lang="en">
+    <head>
+        <title>DeliGreen/Carta</title>
         <meta name="keywords" content="" />
 		<meta name="description" content="" />
+		
 <!--
 Urbanic Template
 https://templatemo.com/tm-395-urbanic
@@ -11,6 +12,8 @@ https://templatemo.com/tm-395-urbanic
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
+		<title>Login Form Design One | Fazt</title>
+        
         
         <!-- Google Web Font Embed -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -21,8 +24,11 @@ https://templatemo.com/tm-395-urbanic
         <!-- Custom styles for this template -->
         <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
         <link href="css/templatemo_style.css"  rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/master.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
     </head>
-    <body class="teal lighten-2">
+    <body background="images/fondo.gif">
 		<div class="templatemo-top-menu">
     		<div class="container">
                 <!-- Static navbar -->
@@ -39,40 +45,36 @@ https://templatemo.com/tm-395-urbanic
                         </div>
                         <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                             <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
-                                <li class="active"><a href="#templatemo-top">Portada</a></li>
-                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="index.html">Portada</a></li>
+                                <li ><a href="nosotros.html">Nosotros</a></li>
                                 <li><a href="#templatemo-portfolio">Contacto</a></li>
-                                <li><a href="#templatemo-blog">Carta</a></li>
-                                <li><a href="iniciar_Sesion.html">Iniciar Sesión</a></li>
+                                <li ><a>Carta</a></li>
+                                <li class="active"><a href="iniciar_Sesion.html">Iniciar Sesión</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
                 </div><!--/.navbar -->
             </div> <!-- /container -->
         </div>
-    <div class="portada" id="bienvenida">
-			<br><br><br>				
-            <div class="container">			  			
-			  <div id="carousel1" class="carousel slide" data-ride="carousel">			  
-			    <div class="carousel-inner" role="listbox">
-				    <div class="item active"><img src="images/portada.png" width="320" height="320" alt="First slide image" class="center-block" align="center">			      
-			        </div>
-				    <div class="item"><img src="images/plato1.png" width="375" height="375" alt="Second slide image" class="center-block" align="center">			      
-			        </div>
-			      <div class="item"><img src="images/plato2.png" width="445" height="445" alt="Third slide image" class="center-block" align="center">						            
-                </div>	
-					<a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>   
-		        </div>
-				
-<br><br><br><br><div style="color: white">
-					  <p  align="center" ><FONT FACE="helvetica" size="6">Deli Green, es una empresa enfocada a la producción de alimentos más nutritivos para las personas, pero sin dejar de lado los buenos sabores que receta sea única y este llena de sabor.</FONT></p>
-			      </div>
-			  </div>
-				
-             
-      </div>
+        <div class="portada" id="bienvenida">
+            <div class="container">	
+				<center>
+				 <div class="form__top">
+			<p align="center"><FONT FACE="helvetica" size="6">Registro</FONT></p>
+		</div>		
+		<form class="form__reg" action="" >
+			<input class="input" type="text" placeholder="&#128100;  Usuario" required autofocus>
+            <input class="input" type="email" placeholder="&#9993;  Email" required>
+            <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+            <input class="input" type="text" placeholder="&#8962;  Dirección" required>
+			 <input class="input" type="password" placeholder="Contraseña" required>
+				<a href="menu_usuario.html">
+					<input  type="button" class="btn__boton" style="color:white" value="Registrar">
+            	</a>		
+            </div>
+		</form>
+					</center>
+          </div>
         </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap-3.3.7.js"></script>
     </body>
 </html>
